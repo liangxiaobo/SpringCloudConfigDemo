@@ -1,0 +1,30 @@
+#spring:
+#  application:
+#    name: config-client
+#  cloud:
+#    config:
+#      fail-fast: true
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#  profiles:
+#    active: dev
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#server:
+#  port: 8762
+
+spring:
+  rabbitmq:
+    host: 172.16.10.85
+    port: 5672
+    username: test
+    password: root
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
