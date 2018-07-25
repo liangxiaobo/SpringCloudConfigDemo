@@ -477,5 +477,3 @@ name: springcloud-config-server2
 
 ![b9.png](https://upload-images.jianshu.io/upload_images/2151905-29e1ae5760e4bc0a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 为什么只刷新了一个config-client而另一个也获取最新的呢，由于使用了spring cloud bus , 其它实例也会收到刷新配置的消息，也可以用destination参数指向刷新的服务名 "actuator/bus-refresh?destination=config-client:**",config-client的所有实例。
-
-github地址：https://github.com/liangxiaobo/SpringCloudConfigDemo
