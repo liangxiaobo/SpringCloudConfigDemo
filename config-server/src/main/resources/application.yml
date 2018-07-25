@@ -4,9 +4,9 @@ spring:
       server:
         git:
           search-paths: respo
-          uri: http://172.16.10.128/liangxiaobo/MyTestSpringcloudConfig.git
-          username: liangxiaobo@nahong.com.cn
-          password: lb821228
+          uri: http://私有仓库地址/liangxiaobo/MyTestSpringcloudConfig.git
+          # username: 用户名 # public 不需要用户名和密码
+          # password: 密码
       label: master
 
   application:
