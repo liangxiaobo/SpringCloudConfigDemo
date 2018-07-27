@@ -1,6 +1,7 @@
 高可用的配置中心加上使用Spring Cloud Bus动态刷新配置文件获取
 ##准备
 这里需要三个工程Eureka-Server、Config-Server、Config-Client下面依次创建工程
+
 ![b1.png](https://upload-images.jianshu.io/upload_images/2151905-6f8866107a8bb478.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### eureka-server 服务注册发现
